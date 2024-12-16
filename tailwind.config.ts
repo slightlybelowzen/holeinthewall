@@ -8,12 +8,15 @@ export default {
     extend: {
       colors: {
         black: {
-          bg: '#0A0A0A',
+          bg: '#0a0a0a',
           elevated: '#181818',
-          border: '#2D2D2D'
+          border: '#2d2d2d'
         },
         white: {
-          primary: '#F3F5F7'
+          primary: '#f3f5f7',
+          charcoal: '#cccccc',
+          secondary: '#777777',
+          hover: 'rgba(255, 255, 255, .025)'
         }
       },
       fontFamily: {
