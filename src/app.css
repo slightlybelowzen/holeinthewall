@@ -5,6 +5,6 @@
 @layer base {
   html,
   body {
-    @apply bg-black-bg text-white-primary antialiased;
+    @apply text-black-primary bg-white-primary text-base antialiased;
   }
 }

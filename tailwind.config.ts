@@ -8,22 +8,19 @@ export default {
     extend: {
       colors: {
         black: {
-          bg: '#0a0a0a',
-          elevated: '#181818',
-          border: '#2d2d2d'
+          primary: 'rgb(29, 29, 31)'
         },
         white: {
-          primary: '#f3f5f7',
-          charcoal: '#cccccc',
-          secondary: '#777777',
-          hover: 'rgba(255, 255, 255, .025)'
+          primary: 'rgb(255, 255, 255)',
+          beige: 'rgba(250, 247, 244, 1)',
+          secondary: 'rgb(245, 245, 247)'
         }
       },
       fontFamily: {
         sans: ['system-ui', ...defaultTheme.fontFamily.sans]
       },
       fontSize: {
-        base: ['.9375rem', '1.4']
+        base: ['1.05rem', '1.4']
       }
     }
   },
