@@ -18,6 +18,9 @@ export default {
       },
       fontFamily: {
         sans: ['system-ui', ...defaultTheme.fontFamily.sans]
+      },
+      fontSize: {
+        base: ['.9375rem', '1.4']
       }
     }
   },
